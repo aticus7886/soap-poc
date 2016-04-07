@@ -1,0 +1,28 @@
+{
+  "name": "soap-poc",
+  "version": "1.0.0",
+  "description": "Poc d'un client SOAP en node",
+  "main": "lib/soapClient.js",
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "npm run eslint && mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "3.5.0",
+    "nock": "^8.0.0",
+    "request": "2.69.0",
+    "soap": "^0.13.0",
+    "utf8": "^2.1.1",
+    "xml2js": "^0.4.16",
+    "xml2json": "^0.9.0"
+  },
+  "devDependencies": {
+    "mocha": "2.4.5",
+    "chai": "3.5.0",
+    "chai-as-promised": "5.2.0",
+    "request": "2.69.0",
+    "eslint": "1.10.3"
+  }
+}
